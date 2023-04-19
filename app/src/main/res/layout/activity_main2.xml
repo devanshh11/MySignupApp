@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/background3"
+    >
+
+    <ImageView
+        android:id="@+id/iiitn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/iiitn"
+        android:layout_marginTop="50dp"
+        />
+        <TextView
+            android:id="@+id/welcome_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to iiitn website"
+            android:layout_below="@id/iiitn"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:padding="20dp"
+            />
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Director Message
+Greetings…….!
+
+All are aware that Indian Institute of Information Technology, Nagpur (IIITN) has started functioning in the Year 2016-17 and technically, is still in the establishment stage.
+
+However, the Institute is striving to be a fore-runner in cutting edge technology research and education. I am delighted to share that the 1st Batch of students has passed out from the Institute and 30 students out of 46 got placement through campus interview with highest package offered is Rs. 20.0 Lakhs per annum and average package of Rs. 7.70 Lakhs per annum. 6 students have opted for higher studies.
+
+Further, you would be happy to know that out of 141 registered students of the 2021 Batch, 24 students are already placed through campus interview with Rs. 19 Lakhs as maximum package and Rs. 10.43 Lakhs as average package per annum.Read More..."
+            android:layout_below="@id/welcome_message"
+            android:textColor="@color/white"
+            />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/og"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:text="Login"
+        android:textSize="25dp" />
+    <ImageView
+        android:id="@+id/og"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/og"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/message"
+        />
+
+</RelativeLayout>
